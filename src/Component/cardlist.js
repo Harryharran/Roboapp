@@ -17,6 +17,10 @@ import Card from "./card";
 
 
 const Cardlist =({robo})=>{
+  // This (if) is to demonstrate a sample Error msg in case of an Error in App
+  // if(true){
+  //   throw new Error ('yes');
+  // }
   return (
       <div className="tc">
       {

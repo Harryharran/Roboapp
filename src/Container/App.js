@@ -4,6 +4,7 @@ import Searchbox from "../Component/Searchbox.js";
 import Cardlist from "../Component/cardlist.js";
 import "./app.css";
 import Scroll from "../Component/Scroll.js";
+import ErrorBoundary from "../ErrorBoundary.js";
 
 
 class App extends Component{
@@ -50,9 +51,13 @@ class App extends Component{
           <Searchbox searchchange={this.onsearchange}/>
           {/* this. coz Onsearchange is an object */}
           </div>
+          
           <Scroll>
+          <ErrorBoundary>
           <Cardlist robo={Searchrobots}/>
+          </ErrorBoundary>
           </Scroll>
+          
           {/* From here robo is passed to Cardlist {robo} */}
           {/* this.state. coz robots is passed as props via state */}
           {/* {Searchrobots} coz searchbox to robots via app */}
