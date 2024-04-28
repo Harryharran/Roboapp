@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Roboapp/static/css/main.8a3e708f.css",
+    "main.js": "/Roboapp/static/js/main.270ea6b8.js",
+    "static/js/453.0a9f4b6c.chunk.js": "/Roboapp/static/js/453.0a9f4b6c.chunk.js",
+    "index.html": "/Roboapp/index.html",
+    "main.8a3e708f.css.map": "/Roboapp/static/css/main.8a3e708f.css.map",
+    "main.270ea6b8.js.map": "/Roboapp/static/js/main.270ea6b8.js.map",
+    "453.0a9f4b6c.chunk.js.map": "/Roboapp/static/js/453.0a9f4b6c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8a3e708f.css",
+    "static/js/main.270ea6b8.js"
+  ]
+}
